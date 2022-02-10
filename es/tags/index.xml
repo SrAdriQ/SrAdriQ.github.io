@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Adrian Quiros Pascual - Portfolio</title>
-    <link>https://hugo-toha.github.io/es/tags/</link>
+    <link>https://adrianqp.com/es/tags/</link>
     <description>Recent content in Tags on Adrian Quiros Pascual - Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://hugo-toha.github.io/es/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://adrianqp.com/es/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Adrian Quiros Pascual - Portfolio</title>
-    <link>https://hugo-toha.github.io/es/categories/</link>
+    <link>https://adrianqp.com/es/categories/</link>
     <description>Recent content in Categories on Adrian Quiros Pascual - Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://hugo-toha.github.io/es/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://adrianqp.com/es/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
