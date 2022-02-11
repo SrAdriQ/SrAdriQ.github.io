@@ -105,7 +105,7 @@
     <priority>0.1</priority>
   </url><url>
     <loc>https://adrianqp.com/</loc>
-    <lastmod>2020-06-08T08:06:25+06:00</lastmod>
+    <lastmod>2010-06-08T08:06:25+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -115,57 +115,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://adrianqp.com/"
-                />
-  </url><url>
-    <loc>https://adrianqp.com/tags/basic/</loc>
-    <lastmod>2020-06-08T08:06:25+06:00</lastmod>
-  </url><url>
-    <loc>https://adrianqp.com/categories/basic/</loc>
-    <lastmod>2020-06-08T08:06:25+06:00</lastmod>
-  </url><url>
-    <loc>https://adrianqp.com/categories/</loc>
-    <lastmod>2020-06-08T08:06:25+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://adrianqp.com/es/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://adrianqp.com/categories/"
-                />
-  </url><url>
-    <loc>https://adrianqp.com/posts/introduction/</loc>
-    <lastmod>2020-06-08T08:06:25+06:00</lastmod>
-  </url><url>
-    <loc>https://adrianqp.com/tags/multi-lingual/</loc>
-    <lastmod>2020-06-08T08:06:25+06:00</lastmod>
-  </url><url>
-    <loc>https://adrianqp.com/posts/</loc>
-    <lastmod>2020-06-08T08:06:25+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://adrianqp.com/es/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://adrianqp.com/posts/"
-                />
-  </url><url>
-    <loc>https://adrianqp.com/tags/</loc>
-    <lastmod>2020-06-08T08:06:25+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://adrianqp.com/es/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://adrianqp.com/tags/"
                 />
   </url><url>
     <loc>https://adrianqp.com/notes/</loc>
@@ -181,6 +130,31 @@
                 href="https://adrianqp.com/notes/"
                 />
   </url><url>
+    <loc>https://adrianqp.com/posts/</loc>
+    <lastmod>2010-06-08T08:06:25+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://adrianqp.com/es/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://adrianqp.com/posts/"
+                />
+  </url><url>
+    <loc>https://adrianqp.com/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://adrianqp.com/es/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://adrianqp.com/categories/"
+                />
+  </url><url>
     <loc>https://adrianqp.com/search/</loc>
     <priority>0.1</priority>
     <xhtml:link
@@ -192,6 +166,18 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://adrianqp.com/search/"
+                />
+  </url><url>
+    <loc>https://adrianqp.com/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://adrianqp.com/es/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://adrianqp.com/tags/"
                 />
   </url>
 </urlset>
