@@ -10,7 +10,7 @@
         
       
     
-    <meta name="description" content="Portfolio y blog personal de Adrian." />
+    <meta name="description" content="Diseñador y programador de videojuegos." />
     
     <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -22,11 +22,16 @@
 <link rel="stylesheet" href="/css/navigators/navbar.css"/>
 <link rel="stylesheet" href="/css/plyr.css"/>
 <link rel="stylesheet" href="/css/flag-icon.min.css"/>
-<link rel="stylesheet" href="/css/katex.min.css">
 
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+
+
+<link rel="stylesheet" href="/fontawesome/css/all.min.css"/>
+
+
+
+<link rel="stylesheet" href="/css/colortheme/colortheme.css"/>
 
 
 
@@ -38,9 +43,10 @@
 
 
 
-<meta property="og:title" content="Portfolio de Adrian"/>
+
+<meta property="og:title" content="Adrián Quirós Pascual"/>
 <meta property="og:type" content="website"/>
-<meta property="og:description" content="Portfolio y blog personal de Adrian."/>
+<meta property="og:description" content="Diseñador y programador de videojuegos."/>
 <meta property="og:image" content="https://adrianqp.com/images/author/heroPortfolio.png">
 <meta property="og:url" content="https://adrianqp.com">
 
@@ -58,8 +64,11 @@
     <link rel="stylesheet" href="/css/style.css"/>
     
     
-    
-  </head>
+
+
+
+
+</head>
   <body data-spy="scroll" data-target="#top-navbar" data-offset="100">
 
     
@@ -106,7 +115,7 @@
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse" id="top-nav-items">
+    <div class="collapse navbar-collapse dynamic-navbar" id="top-nav-items">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
           <a class="nav-link" href="#home">Inicio</a>
@@ -154,28 +163,56 @@
         
         
           <li class="nav-item dropdown">
-<a class="nav-link dropdown-toggle" href="#" id="languageSelector" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    
-    <span class="flag-icon flag-icon-es"></span>
-    Español
-</a>
-<div class="dropdown-menu" aria-labelledby="languageSelector">
-    
-    <a class="dropdown-item nav-link languages-item" href="/">
+    <a class="nav-link dropdown-toggle" href="#" id="languageSelector" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         
-        <span class="flag-icon flag-icon-gb"></span>
-        English
-    </a>
-    
-    <a class="dropdown-item nav-link languages-item" href="/es/">
+            
+            <span class="flag-icon flag-icon-es"></span>
         
-        <span class="flag-icon flag-icon-es"></span>
         Español
     </a>
-    
+    <div class="dropdown-menu" aria-labelledby="languageSelector">
+        
+        <a class="dropdown-item nav-link languages-item" href="/">
+            
+                
+                <span class="flag-icon flag-icon-gb"></span>
+            
+            English
+        </a>
+        
+        <a class="dropdown-item nav-link languages-item" href="/es/">
+            
+                
+                <span class="flag-icon flag-icon-es"></span>
+            
+            Español
+        </a>
+        
+    </div>
+    </li>
+
+        
+        
+          <li class="nav-item dropdown">
+
+<div id="theme-initialization" style="display: none;"
+  default-theme="light"></div>
+<a class="nav-link dropdown-toggle"  href="#" id="themeSelector" role="button"
+  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  <img id="navbar-theme-icon-svg" src="/icons/moon-svgrepo-com.svg" width=20>
+</a>
+<div class="dropdown-menu dropdown-menu-icons-only" aria-labelledby="themeSelector">
+  <a class="dropdown-item nav-link" href="#" onclick="enableLightTheme()">
+    <img class="menu-icon-center" src="/icons/sun-svgrepo-com.svg" width=20>
+  </a>
+  <a class="dropdown-item nav-link" href="#" onclick="enableDarkTheme()">
+    <img class="menu-icon-center" src="/icons/moon-svgrepo-com.svg" width=20>
+  </a>
+  <a class="dropdown-item nav-link" href="#" onclick="useSystemTheme()">
+    <img class="menu-icon-center" src="/icons/computer-svgrepo-com.svg" width=20>
+  </a>
 </div>
 </li>
-
         
       </ul>
     </div>
@@ -247,28 +284,27 @@
   <style>
      
     #homePageBackgroundImageDivStyled {
-        
-      background-image: url('https://adrianqp.com/images/background_hu28bb06ac4e51fca984048e68b7917e7c_1482119_500x0_resize_box_3.png');
+      background-image: url('/images/background_hu28bb06ac4e51fca984048e68b7917e7c_1482119_500x0_resize_box_3.png');
     }
      
     @media (min-width: 500px) and (max-width: 800px) {  
       #homePageBackgroundImageDivStyled {   
-          background-image: url('https://adrianqp.com/images/background_hu28bb06ac4e51fca984048e68b7917e7c_1482119_800x0_resize_box_3.png');
+          background-image: url('/images/background_hu28bb06ac4e51fca984048e68b7917e7c_1482119_800x0_resize_box_3.png');
         }
     }
     @media (min-width: 801px) and (max-width: 1200px) {  
       #homePageBackgroundImageDivStyled {   
-          background-image: url('https://adrianqp.com/images/background_hu28bb06ac4e51fca984048e68b7917e7c_1482119_1200x0_resize_box_3.png');
+          background-image: url('/images/background_hu28bb06ac4e51fca984048e68b7917e7c_1482119_1200x0_resize_box_3.png');
         }
     }
     @media (min-width: 1201px) and (max-width: 1500px) {  
       #homePageBackgroundImageDivStyled {   
-          background-image: url('https://adrianqp.com/images/background_hu28bb06ac4e51fca984048e68b7917e7c_1482119_1500x0_resize_box_3.png');
+          background-image: url('/images/background_hu28bb06ac4e51fca984048e68b7917e7c_1482119_1500x0_resize_box_3.png');
         }
     }
     @media (min-width: 1501px) {  
       #homePageBackgroundImageDivStyled {   
-          background-image: url('https://adrianqp.com/images/background.png');
+          background-image: url('/images/background.png');
         }
     }
     </style>
@@ -282,7 +318,7 @@
       class="rounded-circle mx-auto d-block img-fluid"
       alt="Author Image"
     />
-    <h1 class="greeting"> Hola, Soy Adri</h1>
+    <h1 class="greeting"> Hola, Soy Adrián</h1>
     
     <div class="typing-carousel">
       <span id="ityped" class="ityped"></span>
@@ -311,7 +347,7 @@
         
           
         
-        <a href="#about" aria-label="Leer Más - Adri"><i class="arrow bounce fa fa-chevron-down"></i></a>
+        <a href="#about" aria-label="Leer Más - Adrián"><i class="arrow bounce fa fa-chevron-down"></i></a>
       
     
   </div>
@@ -739,6 +775,7 @@
     
     <p>Empresa de consultoría que trabaja con  ERP (Enterprise Resource Planning) y CRM (Customer Relationship Management) de Microsoft. Brinda soluciones como consultoría tecnológica, transformación digital, innovación digital y soporte a usuario para mejorar la productividad y gestión de otras empresas.</p>
     
+    
     <h6 class="text-muted">Responsabilidades:</h6>
     <ul class="justify-content-around">
     
@@ -749,6 +786,7 @@
         <li>Soporte de usuario al cliente final.</li>
     
     </ul>
+    
 </div>
 
 
@@ -787,6 +825,7 @@
     
     <p>Empresa desarrolladora web y móvil que crea software personalizado.</p>
     
+    
     <h6 class="text-muted">Responsabilidades:</h6>
     <ul class="justify-content-around">
     
@@ -795,6 +834,7 @@
         <li>Integración de APIs de terceros para el acceso a datos externos en la nube desde de la aplicación.</li>
     
     </ul>
+    
 </div>
 
 
@@ -841,12 +881,14 @@
     
     <p>Empresa consultora que brinda a proyectos TIC, soluciones que siguen 4 pasos, Diseño, Implantación, Análisis y Soporte.</p>
     
+    
     <h6 class="text-muted">Responsabilidades:</h6>
     <ul class="justify-content-around">
     
         <li>Crear imagenes y preparar nuevos equipos para la integración en las redes y sistemas de la empresas clientes.</li>
     
     </ul>
+    
 </div>
 
 
@@ -1638,8 +1680,11 @@
 <script type="text/javascript" src="/js/plyr.js"></script>
 <script type="text/javascript" src="/js/main.js"></script>
 
-<script type="text/javascript" defer src="/js/katex.min.js"></script>
-<script type="text/javascript" defer src="/js/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+
+
+<script type="text/javascript" src="/js/darkreader.js"></script>
+<script type="text/javascript" src="/js/darkmode-darkreader.js"></script>
+
 
 
     
@@ -1647,5 +1692,7 @@
     <script src="/js/github-button.js"></script>
     <script src="/js/home.js"></script>
     <script src="/js/jquery.filterizr.min.js"></script>
-  </body>
+
+    
+</body>
 </html>
